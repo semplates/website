@@ -1,0 +1,21 @@
+{
+  "extends": ["plugin:prettier/recommended", "prettier/react"],
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "jest": true,
+    "node": true
+  },
+  "rules": {
+    "prettier/prettier": ["error", {
+     "endOfLine":"auto"
+   }],
+    "react/jsx-filename-extension": [0],
+    "no-console": "off"
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "parser": "babel-eslint"
+}
